@@ -6,6 +6,8 @@
 //  Copyright © 2019 LeoNatan. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
+
 NS_AUTOMATED_REFCOUNT_WEAK_UNAVAILABLE
 NS_ASSUME_NONNULL_BEGIN
 

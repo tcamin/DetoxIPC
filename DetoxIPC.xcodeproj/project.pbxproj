@@ -19,6 +19,7 @@
 		39BEEFED233B994E001C84C3 /* _DTXIPCExportedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BEEFEB233B994E001C84C3 /* _DTXIPCExportedObject.m */; };
 		39BEEFF0233BA85C001C84C3 /* NSInvocation+DTXRemoteSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 39BEEFEE233BA85C001C84C3 /* NSInvocation+DTXRemoteSerialization.h */; };
 		39BEEFF1233BA85C001C84C3 /* NSInvocation+DTXRemoteSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BEEFEF233BA85C001C84C3 /* NSInvocation+DTXRemoteSerialization.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C3F624852396A9D70053EC08 /* NSConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F624842396A9D70053EC08 /* NSConnection.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		39BEEFEB233B994E001C84C3 /* _DTXIPCExportedObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _DTXIPCExportedObject.m; sourceTree = "<group>"; };
 		39BEEFEE233BA85C001C84C3 /* NSInvocation+DTXRemoteSerialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSInvocation+DTXRemoteSerialization.h"; sourceTree = "<group>"; };
 		39BEEFEF233BA85C001C84C3 /* NSInvocation+DTXRemoteSerialization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSInvocation+DTXRemoteSerialization.m"; sourceTree = "<group>"; };
+		C3F624842396A9D70053EC08 /* NSConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSConnection.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				3971742D233A38EE00FFE816 /* NSConnection.h */,
+				C3F624842396A9D70053EC08 /* NSConnection.m */,
 				39B833DB233A898400DBC1D2 /* ObjCRuntime.h */,
 				39A5CF072358B1A100B905F8 /* NSPortNameServer.h */,
 			);
@@ -188,6 +191,7 @@
 			files = (
 				39BEEFED233B994E001C84C3 /* _DTXIPCExportedObject.m in Sources */,
 				39BEEFF1233BA85C001C84C3 /* NSInvocation+DTXRemoteSerialization.m in Sources */,
+				C3F624852396A9D70053EC08 /* NSConnection.m in Sources */,
 				39BEEFE8233B87CF001C84C3 /* _DTXIPCRemoteBlockRegistry.m in Sources */,
 				39B833DF233A920200DBC1D2 /* _DTXIPCDistantObject.m in Sources */,
 				397D3E42233A2A4000E69D28 /* DTXIPCConnection.m in Sources */,
