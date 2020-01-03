@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Leo Natan' => '' }
   s.source           = { :git => 'https://github.com/wix/DetoxIPC.git', :tag => s.version.to_s }
-  s.ios.deployment_target = '9.3'
+  s.ios.deployment_target = '10.0'
   s.osx.deployment_target = '10.14'
 
   s.requires_arc = false
